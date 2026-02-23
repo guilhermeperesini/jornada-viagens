@@ -1,0 +1,80 @@
+.main-footer {
+  width: 100%;
+}
+
+.main-footer .img-container {
+  height: 400px;
+  background: url(../img/img-footer-mobile.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-footer .atendimento-redes {
+  background-color: var(--background-tertiary-color);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.main-footer .atendimento-redes p {
+  color: var(--background-secondary-color);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  text-align: center;
+}
+
+.main-footer .atendimento-redes .atendimento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.main-footer .atendimento-redes .redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer .atendimento-redes .redes .logo-redes {
+  padding: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-footer .img-container {
+    height: 600px;
+    width: 100%;
+    background: url(../img/img-footer-desk.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-footer .atendimento-redes {
+    display: flex;
+    flex-direction: row;
+    padding: 52px 120px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-footer .atendimento-redes .atendimento {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .main-footer .atendimento-redes .atendimento img {
+    width: 160px;
+    height: 40px;
+  }
+
+  .main-footer .atendimento-redes .redes {
+    gap: 16px;
+  }
+
+  .main-footer .atendimento-redes .redes .logo-redes {
+    padding: 0;
+  }
+}
