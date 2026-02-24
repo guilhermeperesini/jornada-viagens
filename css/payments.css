@@ -29,6 +29,42 @@
   grid-column: span 2;
 }
 
+/* PACOTES */
+.payments .text-content .content-title {
+  font-size: 40px;
+  font-weight: var(--titles-weight);
+}
+
+.payments .text-content .content-subtitle {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+}
+
+.payments .text-content .content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.pacotes .first {
+  background: url(../img/img-japao-1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pacotes .second {
+  background: url(../img/img-japao-2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pacotes .thirdy {
+  background: url(../img/img-japao-3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .image-gallery .first {
     background: url(../img/gallery1-tablet-desk.png) no-repeat;
@@ -44,6 +80,24 @@
 
   .image-gallery .thirdy {
     background: url(../img/gallery3-tablet-desk.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pacotes .first {
+    background: url(../img/img-japao-1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pacotes .second {
+    background: url(../img/img-japao-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pacotes .thirdy {
+    background: url(../img/img-japao-3.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
