@@ -14,6 +14,36 @@
   line-height: 1.5;
 }
 
+/* PACOTES */
+.pacotes .hero-img {
+  background: url(../img/hero-pacotes-mobile.png) no-repeat;
+  background-size: cover;
+  color: var(--text-secondary-color);
+  padding: 65px 24px;
+  box-sizing: border-box;
+  height: 460px;
+}
+
+.pacotes .hero-img h1 {
+  font-size: 48px;
+  font-weight: var(--titles-weight);
+}
+
+.pacotes .hero-img hr {
+  display: inline-block;
+  width: 180px;
+  height: 4px;
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+.pacotes .hero-img p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin-top: 32px;
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -25,6 +55,13 @@
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
+  }
+
+  /* PACOTES */
+  .pacotes .hero-img {
+    padding: 210px 69px 108px 120px;
+    height: 620px;
+    background-position: center;
   }
 }
 
@@ -39,6 +76,13 @@
 
   .hero h2 {
     padding: 88px 120px;
+  }
+
+  /* PACOTES */
+  .pacotes .hero-img {
+    padding: 210px 445px 210px 120px;
+    height: 620px;
+    background-position: center;
   }
 }
 
