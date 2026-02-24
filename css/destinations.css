@@ -83,6 +83,11 @@
     width: 900px;
     margin: 0 auto;
   }
+
+  .destinations-items {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1440px) {
