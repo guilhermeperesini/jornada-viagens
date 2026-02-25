@@ -43,6 +43,14 @@
   padding: 16px;
 }
 
+/* PACOTES */
+.main-footer .pacotes {
+  height: 400px;
+  background: url(../img/img-footer-pacotes-mobile.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 1024px) {
   .main-footer .img-container {
     height: 600px;
@@ -76,5 +84,13 @@
 
   .main-footer .atendimento-redes .redes .logo-redes {
     padding: 0;
+  }
+  /* PACOTES */
+  .main-footer .pacotes {
+    height: 600px;
+    width: 100%;
+    background: url(../img/img-footer-pacotes-tablet-desk.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
